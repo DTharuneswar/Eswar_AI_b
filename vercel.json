@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"Eswar_AI_b/main.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"Eswar_AI_b/main.py"
+        }
+    ]
+}
