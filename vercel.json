@@ -1,15 +1,15 @@
 {
     "builds": [
-      {
-        "src": "eswar_ai_b/main.py",
-        "use": "@vercel/python"
-      }
+        {
+            "src": "main.py",
+            "use": "@vercel/python"
+        }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "eswar_ai_b/main.app"
-      }
+        {
+            "src": "/(.*)",
+            "dest": "main.py"
+        }
     ]
-  }
+}
   
